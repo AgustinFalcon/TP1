@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TrabajoPractico1</string>
+    <string name="edit_text_hint_user">Ingrese su usuario</string>
+    <string name="edit_text_hint_pass">Ingrese su contraseña</string>
+    <string name="text_btn_sing_in">Ingresar</string>
+    <string name="text_btn_sing_up">Registrarse</string>
+    <string name="text_btn_sing_out">Salir</string>
+
+    <string name="nav_drawer_home_open">Open</string>
+    <string name="nav_drawer_home_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
