@@ -3,6 +3,8 @@ package com.example.trabajopractico1
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.util.Log
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -25,6 +27,18 @@ class MainActivity : AppCompatActivity() {
         preferences = getSharedPreferences(RegisterActivity.CREDENTIALS, MODE_PRIVATE)
         val edit = preferences.edit()
 
+
+        /*binding.etUser.addTextChangedListener(object : TextWatcher {
+            override fun afterTextChanged(s: Editable?) {
+            }
+
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
+
+            }
+
+            override fun onTextChanged(value: CharSequence?, start: Int, before: Int, count: Int) {
+            }
+        })*/
 
         val autoLogin = preferences.getBoolean("autoLogin", false)
         if (autoLogin == true) {

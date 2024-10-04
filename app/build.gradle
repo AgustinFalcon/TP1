@@ -47,4 +47,8 @@ dependencies {
     androidTestImplementation libs.androidx.espresso.core
 
     implementation("com.google.code.gson:gson:2.11.0")
+
+    // viewModels()
+    implementation("androidx.fragment:fragment-ktx:1.5.7")
+    implementation ("androidx.activity:activity-ktx:1.7.1")
 }
